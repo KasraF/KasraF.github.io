@@ -1,8 +1,3 @@
-# This is a test
-Is this actually working?
+# Hello!
 
-```rust
-fn main() {
-	println!("Hello, internet!");
-}
-```
+This site is currently under construction. But do come back in about a month for some actual content!
