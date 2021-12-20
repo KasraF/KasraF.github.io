@@ -1,0 +1,25 @@
+body {
+    background-color: #073642;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.bg-dark {
+    background-color: #002b36 !important;
+}
+
+.text-light {
+    color: #93a1a1 !important;
+}
+
+h5, .card-title {
+    color: #fdf6e3;
+}
+
+a, a:hover{
+    color: #d33682;
+    font-family: monospace;
+}
+
+b {
+    font-weight: 600;
+}
