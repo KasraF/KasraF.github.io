@@ -22,7 +22,7 @@ a.text-reset, a.text-reset:hover {
 
 a, a:hover {
     color: #d33682;
-    font-family: monospace;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 b {
