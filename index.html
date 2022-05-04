@@ -1,205 +1,276 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Kasra Ferdowsi</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<head>
+  <title>Kasra Ferdowsi</title>
+  <meta charset="utf-8">
 
-    <link rel="shortcut icon" href="https://cse.ucsd.edu/sites/cse.ucsd.edu/files/cse-favicon-2.png" type="image/png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="border-radius: 0 0 .25rem .25rem;">
-        <a class="navbar-brand" href="https://cse.ucsd.edu">
-          <img src="assets/ucsd-cse.png" alt="UCSD CSE" style="width: 50px; border-radius: .25rem"/>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="shortcut icon" href="https://cse.ucsd.edu/sites/cse.ucsd.edu/files/cse-favicon-2.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="border-radius: 0 0 .25rem .25rem;">
+      <a class="navbar-brand" href="https://cse.ucsd.edu">
+        <img src="assets/ucsd-cse.png" alt="UCSD CSE" style="width: 50px; border-radius: .25rem" />
+      </a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#research">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#teaching">Teaching</a>
+        </li>
+      </ul>
+      <div class="navbar-nav justify-content-end">
+        <a target="_blank" class="nav-item ml-2" href="https://dl.acm.org/profile/99659589491">
+          <img src="assets/dl_acm.svg" style="width: 25px" />
         </a>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#research">Research</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link text-light" href="#teaching">Teaching</a>
-          </li>
-        </ul>
-        <div class="navbar-nav justify-content-end">
-          <a target="_blank" class="nav-item ml-2" href="https://dl.acm.org/profile/99659589491">
-            <img src="assets/dl_acm.svg" style="width: 25px"/>
-          </a>
-          <a target="_blank" class="nav-item ml-2" href="https://twitter.com/kasra_ferdowsi">
-            <img src="assets/twitter.svg" style="width: 25px"/>
-          </a>
-          <a target="_blank" class="nav-item ml-2" href="https://www.linkedin.com/in/kasra-ferdowsifard">
-            <img src="assets/linkedin.svg" style="width: 25px"/>
-          </a>
-          <a target="_blank" class="nav-item ml-2" href="https://github.com/KasraF">
-            <img src="assets/github.svg" style="width: 25px"/>
-          </a>
-          <a target="_blank" class="nav-item ml-2" href="mailto:kferdows@eng.ucsd.edu">
-            <img src="assets/email.svg" style="width: 25px"/>
-          </a>
-        </div>
-      </nav>
-      <div class="row">
-        <div class="col">
-          <div class="card text-light bg-dark my-3">
-            <div class="row no-gutters">
-              <div class="col-md-3">
-                <img src="assets/profile.png" class="card-img" alt="Kasra">
-              </div>
-              <div class="col-md-9">
-                <div class="card-body">
-                  <h2 class="card-title" id="about" title="That's me!">Kasra Ferdowsi</h2>
-                  <p class="card-text">
-                      <span>
-                          I'm a PhD student in the <a class="text-reset" href="https://cseweb.ucsd.edu/groups/progsys/">Programming Languages and Systems</a>
-                          group at <a class="text-reset" href="https://cse.ucsd.edu/">UC San Diego</a>,
-                          co-advised by <a class="text-reset" href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia Polikarpova</a>
-                          and <a class="text-reset" href="https://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a>.
-                          I completed my Bachelor's in Electrical Engineering and Computer Science a UC Berkeley in 2019.
-                    </span>
-                    <br />
-                    <br />
-                    <span>
-                      My research interests are at the intersection of Programming Languages and Human-Computer Interactions, with a focus on Program Synthesis, and using PL and Synthesis techniques to build useful and usable tools.
-                    </span>
-                    <br />
-                    <br />
-                    <span>
-                      You can reach me at <a href="mailto:kferdows@eng.ucsd.edu">kferdows@eng.ucsd.edu</a>, read the cute comics I retweet <a href="https://twitter.com/kasra_ferdowsi">@kasra_ferdowsi</a>, and watch my <span title="Seriously, I think I have a problem">mountain of incomplete Rust projects</span> pile up on <a href="https://github.com/KasraF">GitHub</a>.
-                    </span>
-                  </p>
-                </div>
+        <a target="_blank" class="nav-item ml-2" href="https://twitter.com/kasra_ferdowsi">
+          <img src="assets/twitter.svg" style="width: 25px" />
+        </a>
+        <a target="_blank" class="nav-item ml-2" href="https://www.linkedin.com/in/kasra-ferdowsifard">
+          <img src="assets/linkedin.svg" style="width: 25px" />
+        </a>
+        <a target="_blank" class="nav-item ml-2" href="https://github.com/KasraF">
+          <img src="assets/github.svg" style="width: 25px" />
+        </a>
+        <a target="_blank" class="nav-item ml-2" href="mailto:kferdows@eng.ucsd.edu">
+          <img src="assets/email.svg" style="width: 25px" />
+        </a>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col">
+        <div class="card text-light bg-dark my-3">
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <img src="assets/profile.png" class="card-img" alt="Kasra">
+            </div>
+            <div class="col-md-9">
+              <div class="card-body">
+                <h2 class="card-title" id="about" title="That's me!">Kasra Ferdowsi</h2>
+                <p class="card-text">
+                  <span>
+                    I'm a PhD student in the <a class="text-reset"
+                      href="https://cseweb.ucsd.edu/groups/progsys/">Programming Languages and Systems</a>
+                    group at <a class="text-reset" href="https://cse.ucsd.edu/">UC San Diego</a>,
+                    co-advised by <a class="text-reset" href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia
+                      Polikarpova</a>
+                    and <a class="text-reset" href="https://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a>.
+                    I completed my Bachelor's in Electrical Engineering and Computer Science a UC Berkeley in 2019.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    My research interests are at the intersection of Programming Languages and Human-Computer
+                    Interactions, with a focus on Program Synthesis, and using PL and Synthesis techniques to build
+                    useful and usable tools.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    You can reach me at <a href="mailto:kferdows@eng.ucsd.edu">kferdows@eng.ucsd.edu</a>, read the cute
+                    comics I retweet <a href="https://twitter.com/kasra_ferdowsi">@kasra_ferdowsi</a>, and watch my
+                    <span title="Seriously, I think I have a problem">mountain of incomplete Rust projects</span> pile
+                    up on <a href="https://github.com/KasraF">GitHub</a>.
+                  </span>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="card text-light bg-dark my-3">
-            <div class="card-body">
-              <h2 class="card-title" id="research"">Research</h2>
-              <h3>Publications</h3>
-              <p class="card-text">
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card text-light bg-dark my-3">
+          <div class="card-body">
+            <h2 class="card-title" id="research">Research</h2>
+            <h3>Publications</h3>
+            <p class="card-text">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/pb4edu_icon.svg">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">
-                            Investigating the Impact of Using a Live Programming Environment in a CS1 Course
-                        </h5>
-                        <small>SIGCSE TS 2022</small>
+                      <h5 class="mb-1">
+                        Investigating the Impact of Using a Live Programming Environment in a CS1 Course
+                      </h5>
+                      <small>SIGCSE TS 2022</small>
                     </div>
-                    <p class="mb-1">Ruanqianqian (Lisa) Huang, <b>Kasra Ferdowsi</b>, Ana Selvaraj, Adalbert Gerald Soosai Raj and Sorin Lerner</p>
+                    <p class="mb-1">Ruanqianqian (Lisa) Huang, <b>Kasra Ferdowsi</b>, Ana Selvaraj, Adalbert Gerald
+                      Soosai Raj and Sorin Lerner</p>
                     <small class="text-monospace">
                       <a target="_blank" href="https://dl.acm.org/doi/10.1145/3478431.3499305">[Paper]</a>
                       <a target="_blank" href="https://www.youtube.com/watch?v=Y1V6oXlL3U4">[Talk]</a>
                     </small>
-                    </li>
-                    <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/loopy_icon.svg">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
                         LooPy: Interactive Program Synthesis with Control Structures
                       </h5>
                       <small>OOPSLA 2021</small>
                     </div>
-                    <p class="mb-1"><b>Kasra Ferdowsifard</b>, Shraddha Barke, Hila Peleg, Sorin Lerner, Nadia Polikarpova</p>
+                    <p class="mb-1"><b>Kasra Ferdowsifard</b>, Shraddha Barke, Hila Peleg, Sorin Lerner, Nadia
+                      Polikarpova</p>
                     <small class="text-monospace">
-                        <a target="_blank" href="https://dl.acm.org/doi/10.1145/3485530">[Paper]</a>
-                        <a target="_blank" href="https://youtu.be/UtciA6lb_Tc">[Talk]</a>
-                        <a target="_blank" href="http://loopy.goto.ucsd.edu/editor">[Online Editor]</a>
-                        <a target="_blank" href="https://github.com/KasraF/LooPy">[Source Code]</a>
+                      <a target="_blank" href="https://dl.acm.org/doi/10.1145/3485530">[Paper]</a>
+                      <a target="_blank" href="https://youtu.be/UtciA6lb_Tc">[Talk]</a>
+                      <a target="_blank" href="http://loopy.goto.ucsd.edu/editor">[Online Editor]</a>
+                      <a target="_blank" href="https://github.com/KasraF/LooPy">[Source Code]</a>
                     </small>
-                  </li>
-                  <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/snippy_icon.svg">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
                         Small-Step Live Programming by Example
                       </h5>
                       <small>UIST 2020</small>
                     </div>
-                    <p class="mb-1"><b>Kasra Ferdowsifard</b>, Allen Ordookhanians, Hila Peleg, Sorin Lerner, Nadia Polikarpova</p>
+                    <p class="mb-1"><b>Kasra Ferdowsifard</b>, Allen Ordookhanians, Hila Peleg, Sorin Lerner, Nadia
+                      Polikarpova</p>
                     <small class="text-monospace">
                       <a target="_blank" href="https://dl.acm.org/doi/10.1145/3379337.3415869">[Paper]</a>
                       <a target="_blank" href="https://youtu.be/6xmCPznThN8">[Talk]</a>
                       <a target="_blank" href="https://snippy.goto.ucsd.edu/">[Online Editor]</a>
                       <a target="_blank" href="https://github.com/KasraF/SnipPy">[Source Code]</a>
                     </small>
-                  </li>
-                </ul>
-              </p>
-              <h3>Other Writings</h3>
-              <p class="card-text">
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                  </div>
+                </div>
+              </li>
+            </ul>
+            </p>
+            <h3>Other Writings</h3>
+            <p class="card-text">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/research_exam_icon.svg">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">
-                            The Usability of Advanced Type Systems: Rust as a Case Study
-                        </h5>
-                        <small>Research Exam</small>
+                      <h5 class="mb-1">
+                        The Usability of Advanced Type Systems: Rust as a Case Study
+                      </h5>
+                      <small>Research Exam</small>
                     </div>
                     <p class="mb-1"><b>Kasra Ferdowsi</b></p>
                     <small class="text-monospace">
                       <a target="_blank" href="papers/usability_of_advanced_type_systems.pdf">[Written Report]</a>
                     </small>
-                    </li>
-                </ul>
-              </p>
-            </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            </p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="card text-light bg-dark my-3">
-            <div class="card-body">
-              <h2 class="card-title" id="teaching"">Teaching</h2>
-              <p class="card-text">
-                <ul class="list-group">
-                  <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card text-light bg-dark my-3">
+          <div class="card-body">
+            <h2 class="card-title" id="teaching">Teaching</h2>
+            <h3>Courses</h3>
+            <p class="card-text">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/cse130_icon.png">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">
-                            CSE130: Programming Languages
-                        </h5>
+                      <h5 class="mb-1">
+                        CSE130: Programming Languages
+                      </h5>
                       <small>Winter 2022</small>
                     </div>
                     <p class="mb-1">Teaching Assistant</p>
                     <small class="text-monospace">
-                        <a target="_blank" href="https://ucsd-cse130.github.io/wi22/">[Course Website]</a>
+                      <a target="_blank" href="https://ucsd-cse130.github.io/wi22/">[Course Website]</a>
                     </small>
-                  </li>
-                  <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/cse130_icon.png">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">
-                            CSE130: Programming Languages
-                        </h5>
+                      <h5 class="mb-1">
+                        CSE130: Programming Languages
+                      </h5>
                       <small>Fall 2021</small>
                     </div>
                     <p class="mb-1">Teaching Assistant</p>
                     <small class="text-monospace">
-                        <a target="_blank" href="https://nadia-polikarpova.github.io/cse130-web/">[Course Website]</a>
+                      <a target="_blank" href="https://nadia-polikarpova.github.io/cse130-web/">[Course Website]</a>
                     </small>
-                  </li>
-                  <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/cse11_icon.svg">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">
-                            CSE11: Accelerated Intro to Programming
-                        </h5>
+                      <h5 class="mb-1">
+                        CSE11: Accelerated Intro to Programming
+                      </h5>
                       <small>Spring 2020</small>
                     </div>
                     <p class="mb-1">Teaching Assistant</p>
                     <small class="text-monospace">
-                        <a target="_blank" href="https://ucsd-cse11-s20.github.io/">[Course Website]</a>
+                      <a target="_blank" href="https://ucsd-cse11-s20.github.io/">[Course Website]</a>
                     </small>
-                  </li>
-                  <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                <div class="row">
+                  <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="assets/cse131_icon.svg">
+                  </div>
+                  <div class="col-11">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
                         CSE131: Compiler Construction
@@ -208,17 +279,55 @@
                     </div>
                     <p class="mb-1">Teaching Assistant</p>
                     <small class="text-monospace">
-                        <a target="_blank" href="https://ucsd-cse131-f19.github.io/">[Course Website]</a>
+                      <a target="_blank" href="https://ucsd-cse131-f19.github.io/">[Course Website]</a>
                     </small>
-                  </li>
-                </ul>
-              </p>
-            </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            </p>
+            <h3>Mentoring</h3>
+            <p>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+                  <div class="row">
+                    <div class="col-1 d-flex align-items-center">
+                      <img class="img-fluid" src="assets/ersp_icon.png">
+                    </div>
+                    <div class="col-11">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">
+                          ERSP Mentor
+                        </h5>
+                        <small>2021-2022</small>
+                      </div>
+                      <p class="mb-1">With Ruanqianqian (Lisa) Huang, Nadia Polikarpova and Sorin Lerner</p>
+                      <small class="text-monospace">
+                        <a target="_blank" href="https://ersp.eng.ucsd.edu/">[ERSP Website]</a>
+                        <a target="_blank" href="#">[Project Details Coming Soon]</a>
+                      </small>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-  </body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light" style="border-radius: .25rem .25rem 0 0;">
+      <p class="m-0">
+        Website made by me! using <a href="https://getbootstrap.com">Bootstrap</a>,
+        with color scheme inspired by the <a href="https://ethanschoonover.com/solarized/">Solarized Dark</a> palette,
+        and emojies from the <a href="https://github.com/twitter/twemoji">Twemoji</a> project.
+      </p>
+    </nav>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+</body>
 </html>
