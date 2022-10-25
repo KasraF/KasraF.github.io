@@ -1,0 +1,38 @@
+body {
+    background-color: #fdf6e3;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.border-secondary {
+    border-color: rgba(108,117,125,0.5) !important;
+}
+
+.white-icon {
+    filter: invert(75%);
+}
+
+.bg-dark {
+    background-color: #eee8d5 !important;
+}
+
+.text-light {
+    color: #657b83 !important;
+}
+
+h5, .card-title {
+    color: #586e75;
+}
+
+a.text-reset, a.text-reset:hover {
+    font-family: inherit;
+    color: #d33682 !important;
+}
+
+a, a:hover {
+    color: #d33682;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+b {
+    font-weight: 600;
+}
