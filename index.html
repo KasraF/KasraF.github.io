@@ -47,7 +47,10 @@
         <a target="_blank" class="nav-item ml-2" href="https://dl.acm.org/profile/99659589491">
           <img class="white-icon" src="assets/dl_acm.svg" style="width: 25px" />
         </a>
-        <a rel="me" target="_blank" class="nav-item ml-2 d-none d-md-inline" href="https://hci.social/@kasra">
+        <a target="_blank" class="nav-item ml-2" href="https://bsky.app/profile/kasraferdowsi.bsky.social">
+          <img class="white-icon" src="assets/bsky.svg" style="width: 25px" />
+        </a>
+        <a target="_blank" class="nav-item ml-2" href="https://hci.social/@kasra">
           <img class="white-icon" src="assets/mastodon.svg" style="width: 25px" />
         </a>
         <a target="_blank" class="nav-item ml-2" href="https://twitter.com/kasra_ferdowsi">
@@ -74,27 +77,30 @@
             <div class="col-sm-9">
               <div class="card-body">
                 <h2 class="card-title" id="about" title="That's me!">Kasra Ferdowsi</h2>
-                  <div class="mb-2">
-                    I'm a PhD candidate in the <a class="text-reset"
-                      href="https://cseweb.ucsd.edu/groups/progsys/">Programming Languages and Systems</a>
-                    group at <a class="text-reset" href="https://cse.ucsd.edu/">UC San Diego</a>,
-                    co-advised by <a class="text-reset" href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia
-                      Polikarpova</a>
-                    and <a class="text-reset" href="https://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a>.
-                    I completed my Bachelor's in Electrical Engineering and Computer Science a UC Berkeley in 2019.
-                  </div>
-                  <div class="mb-2">
-                    My research interests are at the intersection of Programming Languages and Human-Computer
-                    Interactions, with a focus on Program Synthesis, and using PL and Synthesis techniques to build
-                    useful and usable tools.
-                  </div>
-                  <div class="mb-0">
-                    You can find my CV (updated Aug. 2023) <a href="papers/cv.pdf">here</a>,
-                    reach me at <a href="mailto:kferdows@eng.ucsd.edu">kferdows@eng.ucsd.edu</a>,
-                    toot at me on <a href="https://hci.social/@kasra">hci.social/@kasra</a>,
-                    and watch my <span title="Seriously, I think I have a problem">mountain of incomplete Rust
-                      projects</span> pile up on <a href="https://github.com/KasraF">GitHub</a>.
-                  </div>
+                <div class="mb-2">
+                  I'm a PhD candidate in the <a class="text-reset"
+                    href="https://cseweb.ucsd.edu/groups/progsys/">Programming Languages and Systems</a>
+                  group at <a class="text-reset" href="https://cse.ucsd.edu/">UC San Diego</a>,
+                  co-advised by <a class="text-reset" href="https://cseweb.ucsd.edu/~npolikarpova/">Nadia
+                    Polikarpova</a>
+                  and <a class="text-reset" href="https://cseweb.ucsd.edu/~lerner/">Sorin Lerner</a>.
+                  I completed my Bachelor's in Electrical Engineering and Computer Science a UC Berkeley in 2019.
+                </div>
+                <div class="mb-2">
+                  My research interests are at the intersection of Programming Languages and Human-Computer
+                  Interactions, with a focus on how Program Synthesis (using Large Language Models or PL techniques) can
+                  help us be better, faster and happier programmers.
+                  To that end, I've developed <a href="#snippy">tools</a> and <a href="#loopy">techniques</a>
+                  for program synthesis, and <a href="#coldeco">ran studies</a> on the validation of
+                  AI-generated programs.
+                </div>
+                <div class="mb-0">
+                  You can find my CV (updated Aug. 2023) <a href="papers/cv.pdf">here</a>,
+                  reach me at <a href="mailto:kferdows@eng.ucsd.edu">kferdows@eng.ucsd.edu</a>,
+                  toot at me on <a href="https://hci.social/@kasra">hci.social/@kasra</a>,
+                  and watch my <span title="Seriously, I think I have a problem">mountain of incomplete Rust
+                    projects</span> pile up on <a href="https://github.com/KasraF">GitHub</a>.
+                </div>
               </div>
             </div>
           </div>
@@ -109,7 +115,7 @@
             <h3>Conference Papers</h3>
             <p class="card-text">
             <ul class="list-group">
-              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+              <li id="coldeco" class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
                 <div class="row">
                   <div class="col-1 d-flex align-items-center">
                     <img class="img-fluid" src="assets/coldeco_icon.svg">
@@ -121,7 +127,8 @@
                       </h5>
                       <small>VL/HCC 2023</small>
                     </div>
-                    <p class="mb-1"><b>Kasra Ferdowsi</b>, Jack Williams, Ian Drosos, Andrew D. Gordon, Carina Negreanu, Nadia Polikarpova, Advait Sarkar and Benjamin Zorn</p>
+                    <p class="mb-1"><b>Kasra Ferdowsi</b>, Jack Williams, Ian Drosos, Andrew D. Gordon, Carina Negreanu,
+                      Nadia Polikarpova, Advait Sarkar and Benjamin Zorn</p>
                     <small class="text-monospace">
                       <a target="_blank" href="papers/2023_coldeco.pdf">[Paper]</a>
                       <a target="_blank" href="#">[More Links Coming Soon]</a>
@@ -150,7 +157,7 @@
                   </div>
                 </div>
               </li>
-              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+              <li id="loopy" class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
                 <div class="row">
                   <div class="col-1 d-flex align-items-center">
                     <img class="img-fluid" src="assets/loopy_icon.svg">
@@ -173,7 +180,7 @@
                   </div>
                 </div>
               </li>
-              <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
+              <li id="snippy" class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
                 <div class="row">
                   <div class="col-1 d-flex align-items-center">
                     <img class="img-fluid" src="assets/snippy_icon.svg">
@@ -238,7 +245,8 @@
                       </h5>
                       <small>arXiv 2023</small>
                     </div>
-                    <p class="mb-1"><b>Kasra Ferdowsi</b>, Ruanqianqian (Lisa) Huang, Michael B. James, Nadia Polikarpova, Sorin Lerner</p>
+                    <p class="mb-1"><b>Kasra Ferdowsi</b>, Ruanqianqian (Lisa) Huang, Michael B. James, Nadia
+                      Polikarpova, Sorin Lerner</p>
                     <small class="text-monospace">
                       <a target="_blank" href="https://arxiv.org/abs/2306.09541">[Paper]</a>
                       <a target="_blank" href="papers/2023_leap_slides.pdf">[Slides]</a>
@@ -298,7 +306,7 @@
             <h2 class="card-title" id="teaching">Teaching</h2>
             <h3>Courses</h3>
             <p class="card-text">
-              <ul class="list-group">
+            <ul class="list-group">
               <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
                 <div class="row">
                   <div class="col-1 d-flex align-items-center">
@@ -394,7 +402,7 @@
                   </div>
                 </div>
               </li>
-              </ul>
+            </ul>
             </p>
           </div>
         </div>
@@ -407,7 +415,7 @@
             <h2 class="card-title" id="service">Service</h2>
             <h3>Mentorship</h3>
             <p class="card-text">
-              <ul class="list-group">
+            <ul class="list-group">
               <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
                 <div class="row">
                   <div class="col-1 d-flex align-items-center">
@@ -467,11 +475,11 @@
                   </div>
                 </div>
               </li>
-              </ul>
+            </ul>
             </p>
             <h3>Volunteering</h3>
             <p class="card-text">
-              <ul class="list-group">
+            <ul class="list-group">
               <li class="list-group-item list-group-item-dark bg-dark text-light shadow border-secondary">
                 <div class="row">
                   <div class="col-1 d-flex align-items-center">
@@ -485,8 +493,7 @@
                       <small>HATRA 2023</small>
                     </div>
                     <small class="text-monospace">
-                      <a target="_blank"
-                        href="https://2023.splashcon.org/home/hatra-2023">[Workshop Website]</a>
+                      <a target="_blank" href="https://2023.splashcon.org/home/hatra-2023">[Workshop Website]</a>
                     </small>
                   </div>
                 </div>
@@ -504,13 +511,12 @@
                       <small>PLDI 2023</small>
                     </div>
                     <small class="text-monospace">
-                      <a target="_blank"
-                        href="https://pldi23.sigplan.org/">[Conference Website]</a>
+                      <a target="_blank" href="https://pldi23.sigplan.org/">[Conference Website]</a>
                     </small>
                   </div>
                 </div>
               </li>
-              </ul>
+            </ul>
             </p>
           </div>
         </div>
