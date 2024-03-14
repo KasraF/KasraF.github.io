@@ -1,0 +1,59 @@
+kasraferdowsi
+Kasra Ferdowsi
+==================================================================
+https://keybase.io/kasraferdowsi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kasraferdowsi.com
+  * I am kasraferdowsi (https://keybase.io/kasraferdowsi) on keybase.
+  * I have a public key ASB7zXe4Wibymw1_jFsJAVoF-vTmnkRaQiTmRj9rvhEg3go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207bcd77b85a26f29b0d7f8c5b09015a05faf4e69e445a4224e6463f6bbe1120de0a",
+      "host": "keybase.io",
+      "kid": "01207bcd77b85a26f29b0d7f8c5b09015a05faf4e69e445a4224e6463f6bbe1120de0a",
+      "uid": "bfc7aa3a3ec6129e1295f95891f76819",
+      "username": "kasraferdowsi"
+    },
+    "merkle_root": {
+      "ctime": 1710440171,
+      "hash": "281848b2dee46ff6e911e368ab53a295288275661e1a7702cf84180ace7c3aaa798278e69c5c8a9deb848bc061cca2c40b5ce0b9607dff6dbc233013ecbd7fea",
+      "hash_meta": "317d71d018cc0b7d51098d88ea16cf4bc1a6d73067d53e3d3cf4372deeae98c9",
+      "seqno": 25552682
+    },
+    "service": {
+      "entropy": "PiTMm5vbA8P+DbQrI3/cSMLU",
+      "hostname": "kasraferdowsi.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1710440212,
+  "expire_in": 504576000,
+  "prev": "614a9207e8a0dcb6a7d7ebb8f31df9c9f9487a3ee868f05433f6498c689a8416",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEge813uFom8psNf4xbCQFaBfr05p5EWkIk5kY/a74RIN4Kp3BheWxvYWTESpcCBsQgYUqSB+ig3Lan1+u48x35yflIej7oaPBUM/ZJjGiahBbEIEcZTySoBSZASDaWi933olFZPgZohfjoPeEHxB3LAxfhAgHCo3NpZ8RA/W9RH1/boSrmesIWvnEh0njcMXHd/n10Zpp6BoxodMNfo5p/obl5/reQ5hgNTLItuclqz8NnpvNTKkiSVGmoD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIErDoN0wbHO3fI7gS8xzBrDFde8pJ8ZM4VHw8rlTyoCuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kasraferdowsi
+
+==================================================================
+
